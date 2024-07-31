@@ -1,0 +1,910 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+*,
+*::after,
+&::before {
+	box-sizing: border-box;
+	line-height: 1.5px;
+}
+
+@font-face {
+	font-family: 'PingFangTC';
+	src: url(./PingFang\ \(Semibold\)\ \(2\).ttf);
+}
+
+.body_all {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+
+header {
+	max-width: 1024px;
+	padding-top: 30px;
+	padding-left: 42px;
+	padding-right: 42px;
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.dehaze_picture01 {
+	width: 18px;
+	height: 12px;
+}
+
+.header_sweet_logo_01 {
+	width: 219.49px;
+	height: 40px;
+}
+
+.header_sweet_logo_02 {
+	width: 114.14px;
+	height: 17.74px;
+}
+
+.header_ul {
+	display: flex;
+	align-items: center;
+	margin-left: 401.51px;
+}
+
+.header_ul li {
+	margin-right: 60px;
+}
+
+.header_ul li a {
+	text-decoration: none;
+	font-size: 16px;
+	font-family: PingFangTC, Semibold;
+	color: #3F5D45;
+}
+
+
+.header_shopping_div {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+}
+
+.shopping_picture {
+	width: 24px;
+	height: 24px;
+}
+
+section {
+	max-width: 1024px;
+	margin-bottom: 60px;
+}
+
+.section_div01 {
+	margin-top: 30px;
+	margin-left: 42px;
+	margin-right: 42px;
+}
+
+.header_big_p {
+	max-width: 940px;
+}
+
+.section_wordcard {
+	margin-top: -89px;
+	display: flex;
+	justify-content: center;
+	line-height: 30px;
+	margin-bottom: 80px;
+}
+
+.wordcard_01 {
+	padding-top: 62.98px;
+	padding-bottom: 57.65px;
+	padding-left: 119.46px;
+	padding-right: 115.29px;
+	background: #FFE180 0% 0% no-repeat padding-box;
+	opacity: 0.8;
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border-right: 1px solid #FFFFFF;
+	font-family: PingFangTC, Semibold;
+	font-size: 24px;
+	color: #3F5D45;
+}
+
+.wordcard_02 {
+	padding-top: 62.98px;
+	padding-bottom: 57.65px;
+	padding-left: 119.46px;
+	padding-right: 115.29px;
+	background: #3F5D45 0% 0% no-repeat padding-box;
+	opacity: 0.8;
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border-right: 1px solid #FFFFFF;
+	font-family: PingFangTC, Semibold;
+	font-size: 24px;
+	color: white;
+}
+
+.wordcard_wwd01 {
+	display: flex;
+	max-width: 100%;
+	height: 420px;
+	background-color: #EAF0ED;
+	margin-bottom: 105px;
+}
+
+
+
+.wordcard_wwd01 .wwd_p01 {
+	width: 460px;
+	height: 460px;
+	margin-top: -20px;
+	margin-right: 55px;
+	margin-left: 42px;
+}
+
+
+
+.font-upright {
+	font-size: 16px;
+	color: #8DA291;
+	writing-mode: vertical-rl;
+	/* 垂直排列，從右到左 */
+	margin-top: 70px;
+	margin-bottom: 70.03px;
+}
+
+.font_h01 {
+	margin-right: 24px;
+}
+
+.font_h02 {
+	margin-right: 64px;
+}
+
+.wwd_svg01 {
+	width: 88.94px;
+	height: 307.15px;
+	margin-top: -20px;
+	margin-left: 80px;
+}
+
+.wwd_svg01_1 {
+	width: 196px;
+	height: 60px;
+}
+
+.wordcard_wwd02 {
+	display: flex;
+	max-width: 100%;
+	height: 420px;
+	background-color: #EAF0ED;
+	margin-bottom: 95px;
+}
+
+.font_h03 {
+	margin-left: 42px;
+}
+
+.font_h04 {
+	margin-right: 81.43px;
+}
+
+.wordcard_wwd02 .wwd_p02 {
+	width: 460px;
+	height: 460px;
+	margin-top: -20px;
+}
+
+.wwd_svg02 {
+	width: 88.94px;
+	height: 307.15px;
+	margin-top: -20px;
+	margin-right: 42px;
+}
+
+.wwd_svg02_1 {
+	width: 196px;
+	height: 60px;
+}
+
+.big_w {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 80.20px;
+}
+
+.wwd_svg03 {
+	width: 89.1px;
+	height: 327.79px;
+}
+
+.wwd_svg03_1 {
+	width: 226px;
+	height: 60px;
+}
+
+.c_div {
+	width: 100%;
+	padding-left: 42px;
+	padding-right: 42px;
+	display: flex;
+}
+
+.c_div nav {
+	max-width: 315px;
+}
+
+.card_nav02 {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.c_p {
+	width: 300px;
+	height: 315px;
+	background: url('./sweet_picture/p-2.png') no-repeat center center;
+	background-size: cover;
+	/* 背景圖片覆蓋整個元素 */
+	display: flex;
+}
+
+.c_p02 {
+	width: 300px;
+	height: 315px;
+	background: url('./sweet_picture/p-5.png') no-repeat center center;
+	background-size: cover;
+	/* 背景圖片覆蓋整個元素 */
+	display: flex;
+}
+
+.c_p03 {
+	width: 300px;
+	height: 315px;
+	background: url('./sweet_picture/p-1.png') no-repeat center center;
+	background-size: cover;
+	/* 背景圖片覆蓋整個元素 */
+	display: flex;
+}
+
+.today {
+	margin-left: 20px;
+	margin-right: 202px;
+	background-color: #3F5D45;
+	height: 106.73px;
+	display: flex;
+	align-items: center;
+
+}
+
+.today p {
+	font-family: PingFangTC, Semibold;
+	font-size: 16px;
+	color: white;
+	line-height: 20px;
+	margin-top: 10.08px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 9.24px;
+}
+
+.favorite {
+	max-width: 100%;
+	margin-top: 19px;
+	margin-right: 22px;
+}
+
+.favorite_logo {
+	width: 20px;
+	height: 18.35px;
+}
+
+.foodname_price {
+	width: 100%;
+	display: flex;
+	text-align: center;
+}
+
+.foodname {
+	width: 100%;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	border: 1px solid #EAF0ED;
+}
+
+.price {
+	width: 100%;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	border: 1px solid #EAF0ED;
+}
+
+.foodname_price .foodname a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #3F5D45;
+}
+
+.foodname_price .price a {
+	text-decoration: none;
+	font-family: PingFangTC, Semibold;
+	font-size: 20px;
+	color: #3F5D45;
+}
+
+.add_sc {
+	width: 100%;
+	text-align: center;
+}
+
+.add_sc li {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	background-color: #EAF0ED;
+	border: 1px solid #EAF0ED;
+}
+
+.add_sc li a {
+	text-decoration: none;
+	font-family: PingFangTC, Semibold;
+	font-size: 24px;
+	color: #3F5D45;
+}
+
+.footer {
+	max-width: 1024px;
+}
+
+.footer_mail {
+	display: flex;
+	max-width: 1024px;
+	background-color: #3F5D45;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 122px;
+	padding-right: 122px;
+	margin-top: 60px;
+}
+
+.footer_mail ul {
+	display: flex;
+	align-items: center;
+}
+
+.footer_light {
+	margin-right: 20px;
+}
+
+.footer_light_logo {
+	width: 40px;
+	height: 40px;
+}
+
+.footer_su {
+	margin-right: 124px;
+	font-family: Helvetica Neue, Regular;
+	font-size: 24px;
+	color: #EAF0ED;
+}
+
+.mail {
+	background-color: #EAF0ED;
+}
+
+.mail_logo {
+	margin-right: 272px;
+	margin-left: 20px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	width: 24px;
+	height: 24px;
+}
+
+.arrow {
+	background-color: #FFE180;
+}
+
+.arrow_logo {
+	margin-right: 24px;
+	margin-left: 24px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 16px;
+	height: 16px;
+}
+
+.footer_fb_ig {
+	display: flex;
+	max-width: 1024px;
+	background-color: #EAF0ED;
+	padding-top: 30px;
+	padding-left: 122px;
+	padding-right: 122px;
+}
+
+.s_g_07 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.sweet_logo {
+	width: 171.2px;
+	height: 26.6px;
+	margin-bottom: 115.5px;
+}
+
+.number {
+	font-family: Helvetica Neue, Regular;
+	font-size: 16px;
+	color: #3F5D45;
+}
+
+.goodday_p {
+	width: 59.28px;
+	height: 218.69px;
+	margin-left: 721.3px;
+	margin-top: -210.1px;
+	margin-bottom: 46.31px;
+}
+
+.fb_logo {
+	width: 32px;
+	height: 32px;
+}
+
+.ig_logo {
+	width: 32px;
+	height: 32px;
+}
+
+.fb {
+	margin-left: 40px;
+	margin-top: -34px;
+}
+
+.w_2018 {
+	margin-left: 522px;
+	margin-top: -16px;
+	margin-bottom: 30px;
+}
+
+@media (max-width: 376px) {
+	header {
+		max-width: 375px;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 30px;
+		margin-bottom: 0px;
+		display: flex;
+		align-items: center;
+	}
+
+	.header_ul {
+		display: none;
+	}
+
+	.header_sweet_logo_01 {
+		width: 114.14px;
+		height: 17.74px;
+	}
+
+	.dehaze_picture {
+		width: 24px;
+		height: 24px;
+	}
+
+	.header_p01 {
+		margin-right: 76.85px;
+	}
+
+	.header_p02 {
+		margin-right: 76.01px;
+	}
+
+	.header_shopping_div {
+		margin-left: 0px;
+	}
+
+	section {
+		max-width: 375px;
+		margin-bottom: 0px;
+	}
+
+	.section_div01 {
+		margin-top: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.header_big_p {
+		max-width: 375px;
+		display: block;
+	}
+
+	.section_wordcard {
+		margin-top: 0px;
+		display: flex;
+		justify-content: center;
+		line-height: 24px;
+		margin-bottom: 0px;
+	}
+
+	.wordcard_01 {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		padding-left: 53px;
+		padding-right: 52px;
+		background: #FFE180 0% 0% no-repeat padding-box;
+		opacity: 0.8;
+		backdrop-filter: blur(5px);
+		-webkit-backdrop-filter: blur(5px);
+		border-right: 1px solid #FFFFFF;
+		font-family: PingFangTC, Semibold;
+		font-size: 20px;
+		color: #3F5D45;
+	}
+
+	.wordcard_02 {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		padding-left: 53px;
+		padding-right: 52px;
+		background: #3F5D45 0% 0% no-repeat padding-box;
+		opacity: 0.8;
+		backdrop-filter: blur(5px);
+		-webkit-backdrop-filter: blur(5px);
+		border-right: 1px solid #FFFFFF;
+		font-family: PingFangTC, Semibold;
+		font-size: 20px;
+		color: white;
+	}
+
+	.wordcard_wwd01 {
+		display: flex;
+		flex-direction: column;
+		max-width: 375px;
+		height: 659px;
+		background-color: #EAF0ED;
+		margin-bottom: 0px;
+	}
+
+	.wordcard_wwd01 .wwd_p01 {
+		max-width: 375px;
+		height: 250px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	.font-upright {
+		text-align: center;
+		font-size: 16px;
+		color: #8DA291;
+		writing-mode: horizontal-tb;
+		/* 垂直排列，從右到左 */
+		line-height: 32px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		margin-right: 30px;
+		margin-left: 30px;
+	}
+
+	.font_h01 {
+		margin-right: 0px;
+	}
+
+	.font_h01_1 {
+		margin-bottom: 32px;
+	}
+
+	.font_h02 {
+		margin-right: 0px;
+	}
+
+	.wwd_ssv {
+		width: 196px;
+		height: 60px;
+		margin-left: 90px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.header_p03 {
+		background-color: #FFFFFF;
+	}
+
+	.header_p04 {
+		display: none;
+	}
+
+	.wordcard_wwd02 {
+		display: flex;
+		flex-direction: column-reverse;
+		max-width: 375px;
+		background-color: #EAF0ED;
+		margin-top: 236px;
+		margin-bottom: 0px;
+	}
+
+	.font_h03 {
+		margin-left: 0px;
+	}
+
+	.font_h04 {
+		margin-right: 0px;
+	}
+
+	.wordcard_wwd02 .wwd_p02 {
+		max-width: 375px;
+		height: 250px;
+		margin-top: 0px;
+	}
+
+	.header_p05 {
+		display: none;
+	}
+
+	.wwd_ssv02 {
+		width: 196px;
+		height: 60px;
+		margin-left: 90px;
+		margin-top: 0px;
+		margin-bottom: 30px;
+	}
+
+	.big_w {
+		display: flex;
+		justify-content: center;
+		margin-top: 30px;
+		margin-bottom: 30px;
+
+	}
+
+	.wwd_svg03 {
+		width: 226px;
+		height: 60px;
+	}
+
+	.c_div {
+		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 30px;
+		margin-right: 30px;
+		margin-bottom: 30px;
+		display: flex;
+	}
+
+	.c_div nav {
+		max-width: 315px;
+	}
+
+	.card_nav02 {
+		display: none;
+	}
+
+	.card_nav03 {
+		display: none;
+	}
+
+	.c_p {
+		width: 315px;
+		height: 315px;
+		background: url('./sweet_picture/p-2.png') no-repeat center center;
+		background-size: cover;
+		/* 背景圖片覆蓋整個元素 */
+		display: flex;
+	}
+
+	.footer {
+		max-width: 375px;
+	}
+
+	.footer_mail {
+		display: flex;
+		flex-direction: column;
+		max-width: 375px;
+		background-color: #3F5D45;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 30px;
+		padding-right: 0px;
+		margin-top: 0px;
+	}
+
+	.footer_su {
+		margin-right: 0px;
+	}
+
+	.footer_mail_01 {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.footer_mail_02 {
+		margin-bottom: 30px;
+	}
+
+	.mail_logo {
+		margin-right: 207px;
+	}
+
+	.footer_fb_ig {
+		display: flex;
+		max-width: 375px;
+		background-color: #EAF0ED;
+		padding-top: 38.9px;
+		padding-left: 30.07px;
+		padding-right: 0px;
+	}
+
+	.s_g_07 {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.sweet_logo {
+		margin-bottom: 39.5px;
+	}
+
+	.goodday_p {
+		display: none;
+	}
+
+	.number {
+		margin-bottom: 37px;
+	}
+
+	.fb {
+		margin-left: 40px;
+		margin-top: -35.5px;
+		margin-bottom: 23px;
+	}
+
+	.w_2018 {
+		margin-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 30px;
+	}
+
+}
