@@ -213,163 +213,240 @@ header {
 
 section {
     max-width: 1024px;
+    display: flex;
+    margin-bottom: 65px;
     padding-left: 122px;
-    margin-bottom: 60px;
 }
 
-.section_01 {
-    display: flex;
-    width: 780px;
-}
-
-.member_w {
+.section_form {
+    width: 460px;
     background-color: #3F5D45;
-    width: 390px;
-    height: 130px;
-    display: flex;
-    justify-content:center;
-    /* align-items:center; */
+    margin-right: 20px;
 }
 
-.member_w p {
+.patr_01 {
+    width: 380px;
+    display: flex;
+    flex-direction:column;
+    margin-left: 40px;
+}
+
+.patr_01 ul{
+    display: flex;
+}
+
+.transport li{
     font-family: PingFangTC, Semibold;
-	font-size: 36px;
-	line-height: 36px;
-	color: #EAF0ED;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    font-size: 36px;
+    line-height: 20px;
+    color: #EAF0ED;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.social__w {
-    background-color: #EAF0ED;
-    width: 390px;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-top: 15px;
+.section_form_word {
+    font-family: PingFangTC, Semibold;
+    font-size: 20px;
+    line-height: 20px;
+    color: #EAF0ED;
+    margin-bottom: 8px;
 }
 
-.social__w li {
-    display: flex;
-    justify-content:center;
-}
-
-.social__w li p {
-    font-size: 24px;
-	line-height: 36px;
-	color: #8DA291;
-    margin-top: 40px;
-    margin-bottom: 36px;
-}
-
-.social_p {
-    background-color: #FFFFFF;
+.section_form_small_W {
+    font-size: 16px;
+    line-height: 20px;
+    color: #8DA291;
+    margin-top: 16px;
     margin-bottom: 16px;
 }
 
-.social_py {
-    background-color: #FFFFFF;
-    margin-bottom: 41px;
-}
-
-.facebook_logo {
-    margin-top: 17.59px;
-    margin-bottom: 17.73px;
-}
-
-.google_logo {
-    margin-top: 12.89px;
-    margin-bottom: 12.09px;
-}
-
-.yahoo_logo {
-    margin-top: 16.49px;
-    margin-bottom: 17.18px;
-}
-
-.section_02 {
-    background-color: #3F5D45;
-    width: 390px;
-    flex-direction: column;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-top: -240px;
-}
-
-.member_ul01 {
+.all_form {
     background-color: #EAF0ED;
-    width: 330px;
-    display: flex;
-    margin-bottom: 16px;
+    width: 186px;
+    padding-left: 20px;
 }
 
-.member_ul01 li {
+.h2_m {
+    margin-right: 154px;
+}
+
+.h2_m01 {
+    margin-top: 16px;
+}
+
+.h3_m {
+    margin-right: 8px;
+}
+
+.phone_address {
+    flex-direction:column;
+}
+
+.all_long_form {
+    background-color: #EAF0ED;
+    padding-left: 20px;
+}
+
+.citi {
+    width: 380px;
     display: flex;
+}
+
+.citi_ul {
     align-items: center;
 }
 
-.user_logo {
-    width: 24px;
-    height: 24px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
-
-.key_logo {
-    width: 22px;
-    height: 12px;
-    margin-right: 21px;
-    margin-left: 21px;
-    margin-top: 22px;
-    margin-bottom: 22px;
-}
-
-.ember_ul01 li p {
-	font-size: 12px;
-	line-height: 20px;
-	color: #8DA291;
-}
-
-.remember {
-    display: flex;
-}
-
-.s_space {
-    background-color: #FFFFFF;
-    width: 16px;
-    height: 16px;
+.citi_ul01{
     margin-right: 8px;
-    margin-bottom: 42px;
 }
 
-.remember li p {
-    font-family: PingFangTC, Semibold;
-	font-size: 16px;
-	line-height: 36px;
-	color: #EAF0ED;
-    margin-top: -10.5px;
+.Kaohsiung {
+    margin-right: 74px;
 }
 
+.citi_p {
+    display: flex;
+    flex-direction:column;
+}
 
-.login_w {
+.citip_01 {
+    width: 15px;
+}
+
+.h4_m {
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.part_02 {
+    margin-top: 34px;
     background-color: #FFE180;
-    width: 390px;
+    width: 460px;
     display: flex;
     justify-content:center;
 }
 
-.login_w p {
+.part_02 p{
     font-family: PingFangTC, Semibold;
-	font-size: 24px;
-	line-height: 20px;
-	color: #3F5D45;
+    font-size: 24px;
+    line-height: 20px;
+    color: #3F5D45;
+    margin-top: 19px;
+    margin-bottom: 13px;
+}
+
+.Order_card {
+    width: 300px;
+}
+
+.Order_card_div {
+    border: 1px solid #EAF0ED;
+}
+
+.Order {
+    width: 300px;
+    background-color: #EAF0ED;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.Order li {
+    font-family: PingFangTC, Semibold;
+    font-size: 24px;
+    line-height: 20px;
+    color: #8DA291;
     margin-top: 16px;
     margin-bottom: 16px;
 }
+
+.Order_word {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.Order_word li {
+    display: flex;
+    justify-content:space-between;
+}
+
+.Order_word li .small_w {
+    font-size: 16px;
+    line-height: 20px;
+    color: #8DA291;
+}
+
+.small_w01 {
+    margin-bottom: 8px;
+}
+
+.small_w02 {
+    margin-bottom: 16px;
+}
+
+.Order_word li .big_w {
+    font-family: PingFangTC, Semibold;
+    font-size: 20px;
+    line-height: 20px;
+    color: #8DA291;
+}
+
+.Checklist_card_div {
+    border: 1px solid #EAF0ED;
+}
+
+.Checklist {
+    width: 300px;
+    background-color: #EAF0ED;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.Checklist li {
+    font-family: PingFangTC, Semibold;
+    font-size: 24px;
+    line-height: 20px;
+    color: #8DA291;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.Checklist_word_p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Checklist_word_p li {
+    display: flex;
+    align-items:center;
+}
+
+.Checklist_word_p li img {
+    width: 120px;
+    height: 80px;
+    margin-bottom: 16px;
+    margin-right: 20px;
+}
+
+.Checklist_word_p li p {
+    display: flex;
+    flex-direction:column;
+}
+
+.Checklist_word_p p .small_w {
+    font-size: 16px;
+    line-height: 20px;
+    color: #8DA291;
+}
+
+.Checklist_word_p p .big_w {
+    font-family: PingFangTC, Semibold;
+    font-size: 20px;
+    line-height: 20px;
+    color: #8DA291;
+}
+
 
 
 
@@ -540,99 +617,57 @@ footer {
 
     section {
         max-width: 375px;
+        margin-bottom: 0px;
         padding-left: 0px;
+    }
+    
+    .section_form {
+        width: 375px;
+        margin-right: 0px;
+    }
+    
+    .patr_01 {
+        width: 315px;
+        margin-left: 30px;
+    }
+    
+    .all_form {
+        width: 153px;
+    }
+    
+    .h2_m {
+        margin-right: 120px;
+    }
+    
+    .h3_m {
+        margin-right: 9px;
+    }
+    
+    .citi {
+        width: 315px;
+    }
+    
+    .Kaohsiung {
+        margin-right: 43px;
+    }
+
+    .h4_m {
         margin-bottom: 0px;
     }
-    
-    .section_01 {
-        flex-direction:column;
-        width: 375px;
-    }
-    
-    .member_w {
-        width: 375px;
-        height: 110px;
-    }
-    
-    .member_w p {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    
-    .social__w {
-        width: 375px;
-        flex-direction: row;
-        margin-top: 0px;
-    }
 
-    .social__w li {
-        display: flex;
-        justify-content:center;
+    .part_02 {
+        width: 375px;
     }
-
-    .social__w .social__w_p {
+    
+    .part_02 p{
+        margin-top: 25px;
+        margin-bottom: 19px;
+    }
+    
+    .Order_card {
         display: none;
     }
-    
-    .social_p {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        border: 1px solid #EAF0ED;
-    }
-    
-    .social_py {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        border: 1px solid #EAF0ED;
-    }
-    
-    .facebook_logo {
-        width: 83.4px;
-        height: 15.94px;
-        margin-left: 13px;
-        margin-right: 8.6px;
-        margin-top: 20px;
-        margin-bottom: 20.6px;
-    }
-    
-    .google_logo {
-        width: 72.64px;
-        height: 23.91px;
-        margin-left: 16.41px;
-        margin-right: 15.95px;
-        margin-top: 18px;
-        margin-bottom: 14.09px;
-    }
-    
-    .yahoo_logo {
-        width: 74.41px;
-        height: 17.22px;
-        margin-left: 15.59px;
-        margin-right: 15px;
-        margin-top: 20px;
-        margin-bottom: 18.78px;
-    }
-    
-    .section_02 {
-        width: 375px;
-        margin-top: 0px;
-    }
-    
-    .push{
-        width: 375px;
-        height: 30px;
-    }
 
-    .member_ul01 {
-        background-color: #EAF0ED;
-    }
-    
-    .member_ul01 li {
-        display: flex;
-        align-items: center;
-    }
-    
-    
     /* -----------------------footer(max-width: 376px)------------------------------- */
 
     footer {

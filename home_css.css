@@ -489,7 +489,7 @@ section {
 	color: #3F5D45;
 }
 
-.footer {
+footer {
 	max-width: 1024px;
 }
 
@@ -835,7 +835,7 @@ section {
 		display: flex;
 	}
 
-	.footer {
+	footer {
 		max-width: 375px;
 	}
 

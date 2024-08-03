@@ -213,156 +213,27 @@ header {
 
 section {
     max-width: 1024px;
-    padding-left: 122px;
-    margin-bottom: 60px;
+    display: flex;
+    padding-left: 42px;
+    padding-right: 42px;
 }
 
 .section_01 {
     display: flex;
-    width: 780px;
-}
-
-.member_w {
-    background-color: #3F5D45;
-    width: 390px;
-    height: 130px;
-    display: flex;
-    justify-content:center;
-    /* align-items:center; */
-}
-
-.member_w p {
-    font-family: PingFangTC, Semibold;
-	font-size: 36px;
-	line-height: 36px;
-	color: #EAF0ED;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.social__w {
-    background-color: #EAF0ED;
-    width: 390px;
-    display: flex;
     flex-direction: column;
-    justify-content:center;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-top: 15px;
-}
-
-.social__w li {
-    display: flex;
-    justify-content:center;
-}
-
-.social__w li p {
-    font-size: 24px;
-	line-height: 36px;
-	color: #8DA291;
-    margin-top: 40px;
-    margin-bottom: 36px;
-}
-
-.social_p {
-    background-color: #FFFFFF;
-    margin-bottom: 16px;
-}
-
-.social_py {
-    background-color: #FFFFFF;
-    margin-bottom: 41px;
-}
-
-.facebook_logo {
-    margin-top: 17.59px;
-    margin-bottom: 17.73px;
-}
-
-.google_logo {
-    margin-top: 12.89px;
-    margin-bottom: 12.09px;
-}
-
-.yahoo_logo {
-    margin-top: 16.49px;
-    margin-bottom: 17.18px;
-}
-
-.section_02 {
-    background-color: #3F5D45;
-    width: 390px;
-    flex-direction: column;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-top: -240px;
-}
-
-.member_ul01 {
-    background-color: #EAF0ED;
-    width: 330px;
-    display: flex;
-    margin-bottom: 16px;
-}
-
-.member_ul01 li {
-    display: flex;
-    align-items: center;
-}
-
-.user_logo {
-    width: 24px;
-    height: 24px;
+    width: 620px;
     margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 16px;
-    margin-bottom: 16px;
 }
 
-.key_logo {
-    width: 22px;
-    height: 12px;
-    margin-right: 21px;
-    margin-left: 21px;
-    margin-top: 22px;
-    margin-bottom: 22px;
-}
-
-.ember_ul01 li p {
-	font-size: 12px;
-	line-height: 20px;
-	color: #8DA291;
-}
-
-.remember {
-    display: flex;
-}
-
-.s_space {
-    background-color: #FFFFFF;
-    width: 16px;
-    height: 16px;
-    margin-right: 8px;
-    margin-bottom: 42px;
-}
-
-.remember li p {
-    font-family: PingFangTC, Semibold;
-	font-size: 16px;
-	line-height: 36px;
-	color: #EAF0ED;
-    margin-top: -10.5px;
-}
-
-
-.login_w {
-    background-color: #FFE180;
-    width: 390px;
+.shopping_cart {
+    background-color: #EAF0ED;
+    width: 620px;
     display: flex;
     justify-content:center;
+    margin-bottom: 13px;
 }
 
-.login_w p {
+.shopping_cart p {
     font-family: PingFangTC, Semibold;
 	font-size: 24px;
 	line-height: 20px;
@@ -371,12 +242,156 @@ section {
     margin-bottom: 16px;
 }
 
+.Product_column {
+    width: 620px;
+    display: flex;
+    color: #3F5D45;
+}
 
+.Product_column ul {
+    display: flex;
+    align-items: center;
+}
+
+.Product_column ul li{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.Product_column_p {
+    width: 110px;
+    height: 110px;
+}
+
+.Product_column_p_ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 39px;
+}
+
+.Product_name_ul .Product_name {
+    flex-direction:column;
+    align-items: flex-start;
+}
+
+.Product_name .p01 {
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.Product_name .p02 {
+    font-family: PingFangTC, Semibold;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.button {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #EAF0ED;
+}
+
+.button p {
+    font-size: 16px;
+	line-height: 15px;
+}
+
+.price_delete li p {
+    font-family: PingFangTC, Semibold;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.delete {
+    width: 24px;
+    height: 24px;
+}
+
+.Product_m {
+    margin-right: 39px;
+}
+
+.Product02_border {
+    border-top: 1px solid #EAF0ED;
+    border-bottom: 1px solid #EAF0ED;
+}
+
+.section_02 {
+    background-color: #3F5D45;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 193px;
+}
+
+.Order_div {
+    width: 260px;
+    display: flex;
+    justify-content:center;
+    border-bottom: 1px solid #EAF0ED;
+    margin-bottom: 16px;
+    margin-left: 20px;
+}
+
+.Order_div p {
+    font-family: PingFangTC, Semibold;
+	font-size: 24px;
+	line-height: 20px;
+    color: #EAF0ED;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.Order_ul {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.Order_ul li {
+    display: flex;
+    justify-content:space-between;
+} 
+
+.Order_ul li p {
+    font-size: 16px;
+	line-height: 20px;
+    color: #EAF0ED;
+    margin-bottom: 8px;
+}
+
+.Order_ul .total {
+    font-family: PingFangTC, Semibold;
+	font-size: 20px;
+	line-height: 20px;
+    color: #EAF0ED;
+    margin-top: 8px;
+    margin-bottom: 16px
+}
+
+.Checkout {
+    width: 300px;
+    display: flex;
+    justify-content:center;
+    background-color: #FFE180;
+}
+
+.Checkout p {
+    font-family: PingFangTC, Semibold;
+	font-size: 24px;
+	line-height: 20px;
+    color: #3F5D45;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
 
 
 /* -----------------------footer------------------------------- */
 
 footer {
+    margin-top: 20px;
     max-width: 1024px;
 }
 
@@ -539,103 +554,105 @@ footer {
     /* -----------------------section(max-width: 376px)------------------------------ */
 
     section {
+        flex-direction:column;
         max-width: 375px;
         padding-left: 0px;
-        margin-bottom: 0px;
+        padding-right: 0px;
     }
     
     .section_01 {
-        flex-direction:column;
+        width: 375px;
+        margin-right: 0px;
+    }
+    
+    .shopping_cart {
+        width: 375px;
+        margin-bottom: 15px;
+    }
+    
+    
+    .Product_column {
         width: 375px;
     }
     
-    .member_w {
-        width: 375px;
-        height: 110px;
+
+    .Product_column_p {
+        width: 157px;
+        height: 106px;
     }
     
-    .member_w p {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    
-    .social__w {
-        width: 375px;
-        flex-direction: row;
+    .Product_column_p_ul {
         margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 30px;
+        margin-right: 16px;
     }
 
-    .social__w li {
-        display: flex;
-        justify-content:center;
+    .Product_m {
+        margin-right: 0px;
     }
 
-    .social__w .social__w_p {
+    .Product_m .p01{
+        margin-top: -50px;
+    }
+
+    .Product_m .p02 {
+        margin-bottom: 8px;
+    }
+
+    .Product_name_ul .button {
+        margin-top: 56px;
+    }
+
+    .button_p01 {
+        margin-left: -99px;
+    }
+
+    .price_delete .Product_m {
+        margin-top: 150px;
+        margin-left: -80px;
+   }
+
+    .price_delete .price_delete_delete {
         display: none;
     }
-    
-    .social_p {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        border: 1px solid #EAF0ED;
-    }
-    
-    .social_py {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        border: 1px solid #EAF0ED;
-    }
-    
-    .facebook_logo {
-        width: 83.4px;
-        height: 15.94px;
-        margin-left: 13px;
-        margin-right: 8.6px;
-        margin-top: 20px;
-        margin-bottom: 20.6px;
-    }
-    
-    .google_logo {
-        width: 72.64px;
-        height: 23.91px;
-        margin-left: 16.41px;
-        margin-right: 15.95px;
-        margin-top: 18px;
-        margin-bottom: 14.09px;
-    }
-    
-    .yahoo_logo {
-        width: 74.41px;
-        height: 17.22px;
-        margin-left: 15.59px;
-        margin-right: 15px;
-        margin-top: 20px;
-        margin-bottom: 18.78px;
-    }
-    
-    .section_02 {
-        width: 375px;
-        margin-top: 0px;
-    }
-    
-    .push{
-        width: 375px;
-        height: 30px;
-    }
 
-    .member_ul01 {
+    .section_02 {
+        background-color: #FFFFFF;
+        width: 375px;
+    }
+    
+    .Order_div {
+        width: 315px;
+        border-bottom: 0px solid #EAF0ED;
+        margin-left: 30px;
         background-color: #EAF0ED;
     }
     
-    .member_ul01 li {
-        display: flex;
-        align-items: center;
+    .Order_div p {
+        color: #3F5D45;
     }
     
+    .Order_ul {
+        width: 315px;
+        margin-left: 31px;
+    }
     
+    .Order_ul li p {
+        color: #3F5D45;
+    }
+    
+    .Order_ul .total {
+        color: #3F5D45;
+    }
+    
+    .Checkout {
+        width: 375px;
+    }
     /* -----------------------footer(max-width: 376px)------------------------------- */
 
     footer {
+        margin-top: 0px;
         max-width: 375px;
     }
 

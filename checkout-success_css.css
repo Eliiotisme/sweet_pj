@@ -212,13 +212,66 @@ header {
 /* -----------------------section------------------------------ */
 
 section {
-    background-color: aqua;
+    max-width: 1024px;
+    padding-left: 42px;
+    margin-bottom: 60px;
+}
+
+.success {
+    width: 940px;
+    height: 460px;
+    background: url("https://raw.githubusercontent.com/fire0607/RocketCamp_week3_layout_sweet/main/img/photo-1505935428862-770b6f24f629.avif") no-repeat center center;
+    background-size: cover;
+}
+
+.success li {
+    display: flex;
+    justify-content: center;
+}
+
+.success_p {
+    width: 189.36px;
+    height: 45.46px;
+    margin-top: 182.2px;
+    margin-bottom: 51.34px;
+}
+
+.success_w {
+    width: 300px;
+    background-color: #FFE180;
+    margin-left: 320px;
+}
+
+.success_w p {
+    font-family: PingFangTC, Semibold;
+    font-size: 24px;
+    line-height: 20px;
+    color: #3F5D45;
+    margin-top: 17px;
+    margin-bottom: 15px;
+}
+
+.section_div {
+    width: 300px;
+    background-color: #FFE180;
+    display: none;
+    justify-content: center;
+    margin-left: 320px;
+}
+
+.section_div p {
+    font-family: PingFangTC, Semibold;
+    font-size: 24px;
+    line-height: 20px;
+    color: #3F5D45;
+    margin-top: 17px;
+    margin-bottom: 15px;
 }
 
 
 /* -----------------------footer------------------------------- */
 
-.footer {
+footer {
     max-width: 1024px;
 }
 
@@ -381,12 +434,37 @@ section {
     /* -----------------------section(max-width: 376px)------------------------------ */
 
     section {
-        max-width: 1024px;
+        max-width: 375px;
+        padding-left: 0px;
+        margin-bottom: 0px;
     }
+
+    .success {
+        width: 375px;
+        height: 518px;
+    }
+
+    .success_p {
+        margin-top: 263.2px;
+    }
+
+    .success .success_w {
+        display: none;
+    }
+
+    .section_div {
+        display: flex;
+        margin-left: 0px;
+        width: 375px;
+    }
+
+    
+
+
 
     /* -----------------------footer(max-width: 376px)------------------------------- */
 
-    .footer {
+    footer {
         max-width: 375px;
     }
 
